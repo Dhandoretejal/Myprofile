@@ -1,20 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>m
-        <title>Employee Application Form</title>
-    </head>
-    <body>
-        <form>
-            <table>
-                <thead>
-                    <h3>Employee Application Form</h3>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><label>first Name</label></td>
-                    </tr>
-                </tbody>
-            </table>
-        </form>
-    </body>
+
+<head>
+    <title> Employee Application Form</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <thead>
+                <h3>Employee Application Form</h3>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label> First Name</label></td>
+                    <td>
+                        <input type="text" autofocus required maxlength="40" placeholder="capital letters only">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Email Address</Address></label></td>
+                    <td>
+                        <input type="Email" required placeholder="abc@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Password</label></td>
+                    <td>
+                        <input type="password" required placeholder="Max 8 character required">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Contact number</label></td>
+                    <td>
+                        <input type="number" required maxlength="10" placeholder="Max 10 digit requried">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>photo</label></td>
+                    <td>
+                        <input type="file" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Date of Birth</label></td>
+                    <td>
+                        <input type="date" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Select joining week</label></td>
+                    <td>
+                        <input type="week" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" Name="Gender" /><label>Male</label>
+                        <input type="radio" Name="Gender" /><label>Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Known Tools & Technology</label></td>
+                    <td>
+                        <input type="checkbox" /><label>Angular</label>
+                        <input type="checkbox" /><label>java</label>
+                        <input type="checkbox" /><label>c++</label>
+                        <input type="checkbox" /><label>sql</label>
+                        <input type="checkbox" /><label>python</label>
+                        <input type="checkbox" /><label>git</label>
+                        <input type="checkbox" /><label>manual testing</label>
+                        <input type="checkbox" /><label>database</label>
+                        <input type="checkbox" /><label>c</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Profile</td>
+                    <td>
+                        <select>
+                            <option>select</option>
+                            <option>tester</option>
+                            <option>backend developer</option>
+                            <option>full stack developer</option>
+                            <option>UI developer</option>
+                            <option>Devops engineer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Country</td>
+                    <td>
+                        <input type="text" value="India" readonly />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Present Address</Address>
+                    </td>
+                    <td>
+                        <textarea rows="7" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">submit></td>
+                    <td><button type="reset">reset></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
 </html>
