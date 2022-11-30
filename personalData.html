@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Personal Details</title>
-    </head>
-    <body>
-     <h3>Personal Details</h3>
-     <img src="D:\Angular\HTML\Developer..png" width="100" height="100px" />
-     <li>TEJAL SURESH DHANDORE</li>
-     <br>
-     <label> Mobile Number:7499126831</label>
-     <br>
-     <label> Email :tejaldhandore2000@gmail.com</label>
-     <br>
-     <label> Date of Birth:Jan-23-2000</label>
-     <br>
-     <label> Address:Sinhgad road PUNE</label>
-     <br>
-    </body>
-    <tbody>
-        
-  <tbody>
+  <head>
+    <title>Personal Data with Photo ID</title>
+
+    <style>
+      #skill
+       {
+        color: rgb(68, 117, 119);
+        text-transform: uppercase;
+      }
+
+      .error {
+        color: rgb(68, 117, 119);
+        text-transform: uppercase;
+      }
+
+      body {
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="skill">Profile Photo:</h2>
+    <img src="D:\Angular\HTML\Tejalphoto.jpg" height="250px" width="250px" /><br />
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tejal
+      Dhandore<br />
+    </p>
+
+    <b class="error">Mobile Number:</b>&nbsp;+91 7499126831 <br />
+    <b class="error">Email ID:</b>&nbsp;tejaldhandore2000@gmail.com <br />
+    <b class="error">Date Of Birth:</b>&nbsp;Jan-23-2000 <br />
+    <b class="error">Address:</b>&nbsp;Dattawadi mhasoba chowk pune 
+
     <details>
-      <summary>Family Details</summary>
-         
-    <list>
-        <ul>
-           <li> Father Name:Suresh Dhandore</li>
-            <br>
-            <li>Mother name:Vandana Dhandore</li>
-        </ul>
-    </list>
+      <summary><b class="error">Family Details</b></summary>
+      <ul>
+        <li>Father Name:&nbsp;Suresh Dhandore</li>
+        <li>Mother Name:&nbsp;Vandana Dhandore</li>
+      </ul>
     </details>
-  </tbody>
+  </body>
 </html>
